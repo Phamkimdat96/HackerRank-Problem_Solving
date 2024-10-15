@@ -35,6 +35,7 @@ class Result
             maxSum = maxSum + arr[n];
             n--;
         }
+
         Console.Write($"{minSum} {maxSum}");
     }
 
